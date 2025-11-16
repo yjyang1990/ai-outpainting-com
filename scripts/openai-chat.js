@@ -34,7 +34,7 @@ function kimiAIChat(prompt) {
   // console.log('openai request:', requestStr)
   const url = 'https://api.moonshot.cn/v1/chat/completions'
   // 翻译专用 key
-  const key = 'sk-svcp0mYFph83hbgaPUD8a1wkuWAL6wXpkFR8ITrxJgcVglD8'
+  const key = 'sk-svcp0mYxxxxxFR8ITrxJgcVglD8'
   return fetch(url, {
     method: 'POST', // Assuming it's a POST request
     headers: {
